@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <!-- custom css file link     -->
-    <link rel="stylesheet" href="style.css">
-    <!-- custom js file link  -->
-    <link rel="stylesheet" href="js/scripts.js">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- custom css file link     -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> groco </a>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#products">products</a>
-            <a href="#categories">categories</a>
-            <a href="#review">review</a>
-            <a href="#blogs">blogs</a>
-        </nav>
-        <div class="icons">
-            <div class="fas fa-bars" id="menu-bts"></div>
-            <div class="fas fa-search" id="search-bts"></div>
-            <div class="fas fa-shopping-cart" id="cart-bts"></div>
-            <div class="fas fa-user" id="login-bts"></div>
+  <header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> groco </a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#products">products</a>
+      <a href="#categories">categories</a>
+      <a href="#review">review</a>
+      <a href="#blogs">blogs</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-bts"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-bts"></div>
+      <div class="fas fa-user" id="login-bts"></div>
+    </div>
+    <form action="" class="search-form">
+      <input type="search" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <img src="image/cart-img-1.webp" alt="">
+        <div class="content">
+          <i class="fas fa-trash"></i>
+          <h3>watermelon</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1</span>
         </div>
-        <form action="" class="search-form">
-            <input type="search" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-    </header>
+      </div>
+      <div class="box">
+        <img src="image/cart-img-1.webp" alt="">
+        <div class="content">
+          <i class="fas fa-trash"></i>
+          <h3>Onion</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <img src="image/cart-img-1.png" alt="">
+        <div class="content">
+          <i class="fas fa-trash"></i>
+          <h3>chicken</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="total">total : $19.69/- </div>
+      <a href="#" class="btn">checkout</a>
+    </div>
+  </header>
+
+
+  <!-- custom js file link  -->
+  <script src="script.js"></script>
 </body>
+
 </html>
